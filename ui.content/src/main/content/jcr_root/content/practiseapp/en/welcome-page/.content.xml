@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-13T11:01:01.713-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/practiseapp/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Welcome Page"
+        sling:resourceType="practiseapp/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <text
+                    jcr:created="{Date}2019-02-13T10:19:09.511-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-02-13T11:01:01.710-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="practiseapp/components/content/text"
+                    text="&lt;p>Welcome to Practise App Page&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <carousel
+                    jcr:created="{Date}2019-02-13T10:23:17.771-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-02-13T10:23:17.771-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="practiseapp/components/content/carousel">
+                    <carousel
+                        jcr:created="{Date}2019-02-13T10:23:24.345-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-02-13T10:23:24.345-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="practiseapp/components/content/carousel"/>
+                </carousel>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
